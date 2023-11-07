@@ -15,7 +15,14 @@ export default {
 body {
   background-color: rgba(0, 0, 0, .05);
 }
-  #app {
+.inner-shadow {
+  box-shadow: inset 0 0 16px 0 rgba(0,0,0,.05);
+  border-radius: 16px;
+  background-color: #fff;
+  padding:16px;
+  position: sticky;
+}
+#app {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }

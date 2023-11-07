@@ -6,7 +6,9 @@
                 <user-navbar/>
             </div>
             <div class="col-md-10">
-                <h1>SETTINGS</h1>
+                <div class="inner-shadow">
+                    <h1>SETTINGS</h1>
+                </div>
             </div>
         </div>
     </div>

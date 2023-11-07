@@ -29,23 +29,25 @@ export default {
 
 <style scoped>
 .inner-shadow {
-    box-shadow: inset 0 0 16px 0 rgba(0,0,0,.05);
-    border-radius: 16px;
-    background-color: #fff;
-    padding:16px;
     position: sticky;
 }
 a {
     text-decoration: none;
     color:#000;
     padding:8px;
-    display: inline-block;
+    display: block;
     font-weight: 500;
     color:#777;
+    border-radius: 8px;
     font-family: 'Montserrat', sans-serif;
+    transition: all .5s ease 0s;
 }
 a.active {
     color: #000;
+    background-color: #f4f4f4;
+}
+a:hover {
+    background-color: #f9f9f9;
 }
 ul {
     margin: 0;
@@ -54,5 +56,10 @@ ul {
 }
 li {
 
+}
+@media (max-width:992px) {
+    .inner-shadow {
+        display: none;
+    }
 }
 </style>
