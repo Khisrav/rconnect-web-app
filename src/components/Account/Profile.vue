@@ -1,10 +1,9 @@
 <template>
-    <base-header/>
-    <h1>home</h1>
+    <h1>PROFILE</h1>
 </template>
 
 <script>
 export default {
-    name: "Home"
+    name: "Profile Page"
 }
 </script>
